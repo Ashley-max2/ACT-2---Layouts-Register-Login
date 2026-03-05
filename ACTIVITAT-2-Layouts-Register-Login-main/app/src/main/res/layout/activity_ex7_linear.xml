@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".Ex7LinearActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registre (Linear)"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="32dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Cognom"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Edat"
+        android:inputType="number"
+        android:paddingHorizontal="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Usuari"
+        android:inputType="text"
+        android:paddingHorizontal="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:cornerRadius="16dp"
+        android:textSize="16sp"
+        android:text="Enviar"
+        android:layout_gravity="bottom"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

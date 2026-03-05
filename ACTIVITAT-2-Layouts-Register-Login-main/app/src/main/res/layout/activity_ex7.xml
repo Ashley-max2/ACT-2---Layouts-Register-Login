@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".Ex7Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercici 7: Registre"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="48dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:cornerRadius="16dp"
+        android:textSize="16sp"
+        android:text="Amb LinearLayout"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:cornerRadius="16dp"
+        android:textSize="16sp"
+        android:text="Amb RelativeLayout"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:cornerRadius="16dp"
+        android:textSize="16sp"
+        android:text="Amb ConstraintLayout"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
